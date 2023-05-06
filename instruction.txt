@@ -1,0 +1,28 @@
+
+
+1. fastly ts install korta hobe 
+
+=>   npm install typescript --save-dev
+
+
+2. 2nd nodemon install korta hobe 
+
+=>   npm install -D nodemon
+
+3. 3rd ts-node-dev install korta hobe   
+
+=>   npm i ts-node-dev  , and script a  
+ "start": "ts-node-dev --respawn --transpile-only index.ts"
+ ata add korta hobe
+
+
+3. tsconfig.js file a ts er file za folder er vitor takba sata okn a bola dita hoba
+   search rootDir and uncomment and change
+     "rootDir": "./src",  
+
+3. tsconfig.js file a ts er file gula compile kore dist folder a zoma hoba
+   => root a dist nama folder kulta hobe
+   => search outDir and uncomment and change
+    "outDir": "./dist",   
+
+4. abar run korar zonno command a => just tsc command calata hobe trpor => npm start
